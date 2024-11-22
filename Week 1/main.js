@@ -25,4 +25,12 @@
     console.log("This person is not married.");
  }
 
- 
+ // LOOPS 
+ // Sum from   0 to n
+ let sum = 0;
+ let n = 100;
+ for(let i = 0; i <= n; i++)
+ {
+    sum += i;
+ }
+ console.log("Sum is: " + sum);
