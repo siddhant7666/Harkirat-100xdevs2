@@ -63,3 +63,33 @@ const personArray = ["Sidd", "John", "Alice"];
    gender : "Male"
  }
 
+ console.log(user1["firstName"]);
+ console.log(user1["gender"]);
+ console.log(user1.firstName);
+ console.log(user1.gender);
+
+
+ // Array of objects
+ const allUser = [
+   {
+      firstName : "Sidd",
+      gender : "Male"
+   },
+   {
+      firstName : "John",
+      gender : "Male"
+   },
+   {
+      firstName : "Alice",
+      gender : "Female"
+   }
+ ]
+
+ for(let i =0; i<allUser.length; i++)
+ {
+   if(allUser[i].gender=="Male")
+   {
+      console.log(allUser[i].firstName);
+   }
+ }
+
