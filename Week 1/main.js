@@ -93,3 +93,14 @@ const personArray = ["Sidd", "John", "Alice"];
    }
  }
 
+
+ // Function
+ // Find sum of two numbers
+ function sum(aa, bb)
+ {
+   return aa+bb;
+ }
+ let aa = 5;
+ let bb = 25;
+ console.log("Sum is: " + sum(aa,bb));
+
