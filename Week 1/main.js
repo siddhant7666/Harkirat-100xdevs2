@@ -45,7 +45,8 @@ const personArray = ["Sidd", "John", "Alice"];
 
  // Write a program that prints all the even numbers in an array
  const Numberarray = [21, 22, 23, 24, 25, 26, 27, 28, 29];
- for(let i =0; i<Numberarray.length; i++)
+ const size = Numberarray.length;
+ for(let i =0; i<size; i++)
  {
    if(Numberarray[i]%2==0)
    {
@@ -56,3 +57,4 @@ const personArray = ["Sidd", "John", "Alice"];
       console.log(Numberarray[i] + " is odd");
    }
  }
+
