@@ -58,3 +58,8 @@ const personArray = ["Sidd", "John", "Alice"];
    }
  }
 
+ const user1 = {
+   firstName : "Sidd",
+   gender : "Male"
+ }
+
